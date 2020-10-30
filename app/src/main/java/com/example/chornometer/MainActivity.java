@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
     public void  startChronometer (View v) {
+        
         if (!runnnig){
             chronometer.setBase(SystemClock.elapsedRealtime() - pauseOffSet);
             chronometer.start();
